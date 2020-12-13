@@ -194,7 +194,7 @@ h3:before {
 	border-radius: 10px;
 	padding: 1vh;	
 }
-.blog-card img{
+.blog-card .post-img{
 	max-height: 50vh;
 	margin: auto;
 }
