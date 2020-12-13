@@ -23,7 +23,17 @@ description: {{ site.description }}
 	{% endif %}
 </div>
 
-<div class="list-group">
+
+{% for post in paginator.posts %} 
+
+<div class="row">
+	{% include blog-col-box.html %}
+</div>
+
+{% endfor %}
+
+
+<!--- <div class="list-group">
 	{% for post in paginator.posts %} 
 	<div class="list-group-item">
 	<a href="{{ post.url }}">
@@ -44,7 +54,7 @@ description: {{ site.description }}
 
 	</div>
 	{% endfor %}
-</div>
+</div> -->
 
 <!-- Pagination links -->
 <div >
