@@ -188,6 +188,17 @@ h3:before {
 	float: right !important;
 }
 
+.card{
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 1vh;	
+}
+.card img{
+	max-height: 50vh;
+	margin: auto;
+}
+
 @media( max-width:991px){
 	.navbar-nav {
 		float: left !important;

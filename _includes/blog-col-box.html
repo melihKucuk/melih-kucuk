@@ -12,15 +12,14 @@
     <a href="{{ post.url }}">Read more...</a>
 </div>-->
 <div class="col-12 col-md-6 blog-col">
-    <div class="card" style="width: 100%;">
+    <div class="card">
         {% for tag in post.tags %}
         <a class="label label-default" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
         {% endfor %}
         <img alt="{{ post.title }}" src="{{ site.baseurl }}{{ post.image }}" class="img-responsive">
         <div class="card-body">
             <h4 class="card-title">{{ post.title }}</h4>
-            <h6 class="card-text">{{ post.published | date: '%B %d,
-              %Y' }} | (Last Update : {{ post.date | date: '%B %d, %Y' }})</h6>
+            <h6 class="card-text">{{ post.date | date: "%d/%m/%Y" | truncatewords:20)</h6>
             <p>{{ post.excerpt | strip_html}}</p>
             <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Devamını oku</a>
         </div>
