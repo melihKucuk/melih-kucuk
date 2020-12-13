@@ -28,7 +28,7 @@
 							<ul class="dropdown-menu">
 								{% for subitem in item.submenu %}
 									<li>
-										<a href="{{subitem.link}}">
+										<a href="{{ site.baseurl }}{{subitem.link}}">
 											{% if subitem.icon %}
 											<i class="fa fa-inverse fa-{{subitem.icon}} fa-2x"></i>
 											{% endif %}
@@ -39,7 +39,7 @@
 								</ul>
 							</li>
 						{% else %}
-							<li><a href="{{item.link}}">{{item.name}}</a></li>
+							<li><a href="{{ site.baseurl }}{{item.link}}">{{item.name}}</a></li>
 						{% endif %}
 					{% endfor %}
 				</ul>
@@ -48,9 +48,12 @@
 	</nav>
 		{% if page.noimage %}
 		{% else %}
-		<img
+		<!--<img
 			alt="{{ page.title }}"
-			src="/assets/images/{{page.id}}/top.jpg" class="img-responsive">
+			src="{{ site.baseurl }}/assets/images/{{page.id}}/top.jpg" class="img-responsive">-->
+			<div class='stars'></div>
+			<div class='twinkling'></div>
+			<div class='clouds'></div>
 		{% endif %}
 
 	<div class="jumbotron  clearfix">

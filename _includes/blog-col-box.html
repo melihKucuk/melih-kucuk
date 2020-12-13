@@ -22,6 +22,6 @@
       <h6 class="card-text">{{ post.published | date: '%B %d,
               %Y' }} | (Last Update : {{ post.date | date: '%B %d, %Y' }})</h6>
               <p>{{ post.excerpt | strip_html}}</p>
-      <a href="{{ post.url }}" class="btn btn-primary">Devamını oku</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Devamını oku</a>
     </div>
   </div>
