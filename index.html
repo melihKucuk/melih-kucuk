@@ -1,27 +1,7 @@
 --- 
 layout: default 
 title: Melih Küçük
-description: Lorem ipsum sit amet.
 ---
-
-<!-- Pagination links -->
-<div >
-	{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" >
-		Previous
-		</a>
-	{% else %}
-		<span>Önceki</span>
-	{% endif %}
-	| <span class="page_number ">
-		Sayfa: {{ paginator.page }} - {{ paginator.total_pages }}
-	</span> | 
-	{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path }}" >Next</a>
-	{% else %}
-		<span >Sonraki</span>
-	{% endif %}
-</div>
 
 <div class="row">
 	{% for post in paginator.posts %} 
@@ -33,7 +13,7 @@ description: Lorem ipsum sit amet.
 
 
 <!-- Pagination links -->
-<div >
+<div style="padding: 2vh;">
 {% if paginator.previous_page %}
 	<a href="{{ paginator.previous_page_path }}" >
 	Previous
@@ -45,7 +25,7 @@ description: Lorem ipsum sit amet.
 	Sayfa: {{ paginator.page }} - {{ paginator.total_pages }}
 </span> | 
 {% if paginator.next_page %}
-	<a href="{{ paginator.next_page_path }}" >Next</a>
+	<a href="{{ paginator.next_page_path }}" >Sonraki</a>
 {% else %}
 	<span >Sonraki</span>
 {% endif %}

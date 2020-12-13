@@ -34,12 +34,14 @@ h3:before {
 }
 
 .jumbotron {
-	background: rgba(170, 170, 170, 0.36);
-	margin: 7vh;
-	border-radius: 10px;
+	background-image: url("https://melihkucuk.github.io/melih-kucuk/assets/images/top.jpg");
+	/* border-radius: 10px; */
 }
 
 .jumbotron h1 {
+	background: rgba(170, 170, 170, 0.36);
+	margin: 15vh;
+	padding: 15vh;
 	color: black;
 	letter-spacing: 0.2em;
 	font-size: 3em;
