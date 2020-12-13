@@ -40,7 +40,7 @@ h3:before {
 }
 
 .jumbotron h1 {
-	color: white;
+	color: black;
 	letter-spacing: 0.2em;
 	font-size: 3em;
 	text-align: center;
@@ -190,13 +190,17 @@ h3:before {
 
 .blog-card{
 	width: 100%;
-	border: 1px solid black;
+	border: 2px solid rgb(221, 221, 221);
 	border-radius: 10px;
 	padding: 1vh;	
 }
 .blog-card img{
 	max-height: 50vh;
 	margin: auto;
+}
+
+.footer-text{
+	color: white;
 }
 
 @media( max-width:991px){
