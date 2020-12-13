@@ -193,8 +193,9 @@ h3:before {
 	padding: 1vh;	
 }
 .blog-card .post-img{
-	max-height: 50vh;
+	max-height: 30vh;
 	margin: auto;
+	border-radius: 10px;
 }
 
 .footer{
