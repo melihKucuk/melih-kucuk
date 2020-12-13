@@ -23,15 +23,13 @@ description: {{ site.description }}
 	{% endif %}
 </div>
 
-
-{% for post in paginator.posts %} 
-
 <div class="row">
-	{% include blog-col-box.html %}
+	{% for post in paginator.posts %} 
+
+		{% include blog-col-box.html %}
+
+	{% endfor %}
 </div>
-
-{% endfor %}
-
 
 <!--- <div class="list-group">
 	{% for post in paginator.posts %} 
