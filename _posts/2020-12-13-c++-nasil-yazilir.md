@@ -7,7 +7,8 @@ comments: true
 categories: c++
 tags: [c++]
 ---
-a) Yerel Alan Ağı (
+cout<<"sağlarlarss"
+ 	a) Yerel Alan Ağı (
 •
 Yüksek hızlı ve genelde tek bir bina yada yerleşke
 içerisinde (1 1000m arasındaki) kurulan ağları
