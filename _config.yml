@@ -17,7 +17,7 @@ title: Melih Küçük
 name: Melih Küçük
 description: 
   Lorem ipsum sit amet.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 github_username:  melihKucuk
 
 # jekyll-paginate configuration
