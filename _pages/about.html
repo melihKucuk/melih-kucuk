@@ -1,28 +1,29 @@
 ---
 layout: default
-title: About
+title: Hakkımda
 permalink: /about/
 ---
-<h1>Good day fellow readers and welcome to my tech blog !</h1>
+<h1>Merhaba, notlarımı ve hayatımı paylaştığım sayfama hoşgeldin...</h1>
 
 <p>
-My name Alain Pham.
-I am currently working as a Solution Architect specialized in Application Development.
-My main task is to deliver complex proof of concepts across EMEA to enable the adoption of open source technologies.
-
+	İsmim Melih Küçük.
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestias sequi, minima perspiciatis provident expedita
+	eos, vero, atque repudiandae harum corrupti ducimus quo voluptas neque cupiditate tenetur impedit. Quos, reiciendis!
 </p>
-<p>
-The purpose of my life?
-Since a very young age I have always been passionate about ecosystems of technology. So my purpose on earth is
-making it possible to advantage of a wide range of technologies and methods and to solve one complex problem after another.
-</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem temporibus blanditiis consectetur voluptates,
+	dolore aliquid aspernatur possimus. Dicta, rem unde reiciendis dolor vel incidunt maxime neque exercitationem
+	voluptates odio impedit.</p>
 
 <p>
-You can also follow me on social media:  <br>
-<a href="http://github.com/alainpham">
-			<i class="fa fa-github fa-3x"></i></a>
-	<a href="http://www.linkedin.com/in/alainpham">
-			<i class="fa fa-linkedin-square fa-3x"></i></a>
-	<a href="https://twitter.com/koint">
-			<i class="fa fa-twitter fa-3x"></i></a>
+	You can also follow me on social media: <br>
+	{% for item in site.data.settings.menu %}
+		{% for subitem in item.submenu %}
+			<a href="{{subitem.link}}">
+				{% if subitem.icon %}
+				<i class="fa fa-inverse fa-{{subitem.icon}} fa-2x"></i>
+				{% endif %}
+				{{subitem.name}}
+			</a>
+		{% endfor %}
+	{% endfor %}
 </p>
