@@ -188,13 +188,13 @@ h3:before {
 	float: right !important;
 }
 
-.card{
+.blog-card{
 	width: 100%;
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 1vh;	
 }
-.card img{
+.blog-card img{
 	max-height: 50vh;
 	margin: auto;
 }
