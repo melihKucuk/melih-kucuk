@@ -35,14 +35,15 @@ h3:before {
 
 .jumbotron {
 	background-image: url("https://melihkucuk.github.io/melih-kucuk/assets/images/bg.gif");
-	/* border-radius: 10px; */
+	background-attachment: fixed;
 }
 
 .jumbotron h1 {
 	background: rgba(170, 170, 170, 0.36);
 	margin: 15vh;
 	padding: 15vh;
-	color: black;
+	border-radius: 10px;
+	color: white;
 	letter-spacing: 0.2em;
 	font-size: 3em;
 	text-align: center;
