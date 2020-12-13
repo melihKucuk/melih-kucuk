@@ -15,7 +15,7 @@ title: Melih Küçük
 <!-- Pagination links -->
 <div style="padding: 2vh;">
 {% if paginator.previous_page %}
-	<a href="{{ paginator.previous_page_path }}" >
+	<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" >
 	Previous
 	</a>
 {% else %}
@@ -25,7 +25,7 @@ title: Melih Küçük
 	Sayfa: {{ paginator.page }} - {{ paginator.total_pages }}
 </span> | 
 {% if paginator.next_page %}
-	<a href="{{ paginator.next_page_path }}" >Sonraki</a>
+	<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" >Sonraki</a>
 {% else %}
 	<span >Sonraki</span>
 {% endif %}
