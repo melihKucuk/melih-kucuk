@@ -34,7 +34,9 @@ h3:before {
 }
 
 .jumbotron {
-	background: #719d7d;
+	background: rgba(170, 170, 170, 0.36);
+	margin: 7vh;
+	border-radius: 10px;
 }
 
 .jumbotron h1 {
@@ -184,6 +186,10 @@ h3:before {
 
 .navbar-nav {
 	float: right !important;
+}
+
+.bg-space{
+	max-height: 10vh;
 }
 
 @import "susy";
