@@ -11,15 +11,15 @@ description: Lorem ipsum sit amet.
 		Previous
 		</a>
 	{% else %}
-		<span>Previous</span>
+		<span>Önceki</span>
 	{% endif %}
 	| <span class="page_number ">
-		Page: {{ paginator.page }} of {{ paginator.total_pages }}
+		Sayfa: {{ paginator.page }} - {{ paginator.total_pages }}
 	</span> | 
 	{% if paginator.next_page %}
 		<a href="{{ paginator.next_page_path }}" >Next</a>
 	{% else %}
-		<span >Next</span>
+		<span >Sonraki</span>
 	{% endif %}
 </div>
 
@@ -61,15 +61,15 @@ description: Lorem ipsum sit amet.
 	Previous
 	</a>
 {% else %}
-	<span>Previous</span>
+	<span>Önceki</span>
 {% endif %}
 | <span class="page_number ">
-	Page: {{ paginator.page }} of {{ paginator.total_pages }}
+	Sayfa: {{ paginator.page }} - {{ paginator.total_pages }}
 </span> | 
 {% if paginator.next_page %}
 	<a href="{{ paginator.next_page_path }}" >Next</a>
 {% else %}
-	<span >Next</span>
+	<span >Sonraki</span>
 {% endif %}
 </div>
 	  
