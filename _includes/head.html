@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-  <link rel="shortcut icon" type="image/png" href="/icon.png" />
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/icon.png" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@koint">
@@ -77,16 +77,16 @@
 "url": "{{site.url}}{{page.url}}"}</script>
   {% endif %}
 
-  <link rel="author" href="{{site.author}}"/>
+  <link rel="author" href="{{ site.baseurl }}{{site.author}}"/>
 
    <!-- End SEO stuff -->
 
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="/assets/css/main.css" />
-   <link href="/assets/css/syntax.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+   <link href="{{ site.baseurl }}/assets/css/syntax.css" rel="stylesheet">
 
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 
 </head>
