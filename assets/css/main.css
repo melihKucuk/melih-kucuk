@@ -180,6 +180,11 @@ h3:before {
 	}
 }
 
+a:hover, a:focus {
+    color: #252525;
+    text-decoration: auto;
+}
+
 .navbar-brand-title{
 	color: white;
 
@@ -187,6 +192,10 @@ h3:before {
 
 .navbar-nav {
 	float: right !important;
+}
+
+.label-default {
+    background-color: #424141 !important;
 }
 
 .blog-col{
