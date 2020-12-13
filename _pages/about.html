@@ -21,14 +21,13 @@ permalink: /about/
 
 <p>
 	You can also follow me on social media: <br>
-	{% for item in site.data.settings.menu %}
-		{% for subitem in item.submenu %}
-			<a href="{{subitem.link}}">
-				{% if subitem.icon %}
-				<i class="fa fa-inverse fa-{{subitem.icon}} fa-2x"></i>
-				{% endif %}
-				{{subitem.name}}
-			</a>
-		{% endfor %}
-	{% endfor %}
+	<a href="{{ site.github }}">
+		<i class="fa fa-github fa-3x"></i>
+	</a>
+	<a href="{{ site.linkedin }}">
+		<i class="fa fa-linkedin-square fa-3x"></i>
+	</a>
+	<a href="{{ site.instagram }}">
+		<i class="fa fa-instagram fa-3x"></i>
+	</a>
 </p>

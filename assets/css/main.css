@@ -207,6 +207,7 @@ h3:before {
 
 .footer-text{
 	color: white;
+	margin-left: 4vh;
 }
 
 @media( max-width:991px){
