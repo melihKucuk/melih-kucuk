@@ -188,6 +188,12 @@ h3:before {
 	float: right !important;
 }
 
+@media( max-width:991px){
+	.navbar-nav {
+		float: left !important;
+	}
+}
+
 .bg-space{
 	max-height: 10vh;
 }
