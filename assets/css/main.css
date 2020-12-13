@@ -199,6 +199,14 @@ h3:before {
 	margin: auto;
 }
 
+.footer{
+	display: flex !important;
+}
+
+.footer-links{
+	margin-left: auto;
+}
+
 .footer-text{
 	color: white;
 }
