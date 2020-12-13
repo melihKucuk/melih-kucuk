@@ -19,7 +19,9 @@
         <img alt="{{ post.title }}" src="{{ site.baseurl }}{{ post.image }}" class="img-responsive">
         <div class="card-body">
             <h4 class="card-title">{{ post.title }}</h4>
-            <h6 class="card-text">{{ post.date | date: "%d/%m/%Y" | truncatewords:20)</h6>
+            <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+            <div class="clearfix"></div>
+            <h6 class="card-text">{{ post.excerpt | strip_html | truncatewords:10 }}</h6>
             <p>{{ post.excerpt | strip_html}}</p>
             <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Devamını oku</a>
         </div>
