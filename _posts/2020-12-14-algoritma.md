@@ -1,4 +1,12 @@
-Algoritma Nedir?
+---
+layout: default
+title:  "Algoritma Nedir?"
+image: "/assets/images/posts/deneme.jpg"
+comments: true
+categories: Algoritma
+tags: []
+---
+
 
 Kelime, Abu Ja'far Mohammed ibn Musa alKhowarizmi(Harizmi)'nin soyadının fonetik telaffuzundan türetilmiştir.
 Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanan yoldur.
