@@ -12,7 +12,7 @@ Kelime, Abu Ja'far Mohammed ibn Musa alKhowarizmi(Harizmi)'nin soyadının fonet
 Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanan yoldur.
 Algoritmalar, programlama veya matematikte bir işi yapmak için kullanılan sonlu işlemler kümesidir.
 Algoritma basamaklarının bir başlangıcı ve sonu bulunur. Her adımda yapılacak işlemler açıkça belirtilir.
-<img src="{{ site.baseurl }}{{ site.img }}me.jpg" alt="Algoritma" class="img-fluid">
+
 
 Algoritma Nasıl Hazırlanmalıdır?
 Algoritma yazarken, programın çalışması için kullanılan kaynakların, yapılması gereken kontrollerin veya işlemlerin açıkça ifade edilmesi gerekir. Ayrıca iyi bir algoritmanın, tüm ihtimalleri kontrol edip istenmeyen durumlarda da ne yapılması gerektiğini belirtmesi gerekir.
@@ -24,7 +24,7 @@ Her algoritma aşağıdaki kriterleri sağlamalıdır.
 4. Sonluluk: Her türlü olasılık için algoritma sonlu adımda bitmeli.
 5. Etkinlik  : Her komut kişinin kalem ve kağıt ile yürütebileceği kadar basit olmalıdır. 
 
-<img src="{{ site.baseurl }}{{ site.img }}deneme.jpg" alt="Algoritma" class="img-fluid">
+
 
 ÖRNEĞİN;Verilen tamsayının sıfır, pozitif ya da negatif olup olmadığını bulan algoritma ve akış diyagramını tasarlayalım
 BAŞLA
@@ -37,4 +37,13 @@ BİTİR
 AKIŞ ŞEMALARI
 Algoritmadaki adımların şekilsel ya da grafiksel olarak ortaya konulmasına akış diyagramı (şeması) denir.  Akış şemasında belirli semboller bulunmaktadır ve hepsinin farklı bir anlamı vardır. 
 
-<img src="{{ site.baseurl }}{{ site.img }}" alt="" class="img-fluid"> 
+
+
+<div class="row">
+	<div class="col-6">
+		<img src="{{ site.baseurl }}{{ site.img }}simge.jpg" alt="" class="img-fluid"> 
+	</div>
+	<div class="col-6">
+		<img src="{{ site.baseurl }}{{ site.img }}akış.jpg" alt="" class="img-fluid"> 		
+	</div>
+</div>
