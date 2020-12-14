@@ -28,11 +28,6 @@
 		{{ content }}
 
 
-		{% if page.id %}
-		<p>Yayımlanma Tarihi {{ page.published | date: '%B %d, %Y' }}</p>
-
-		{% endif %}
-
 		{% include disqus.html %}
 	</div>
 	{% include footer.html %}
