@@ -231,6 +231,10 @@ a:hover, a:focus {
 	.navbar-nav {
 		float: left !important;
 	}
+	.jumbotron h1 {
+		margin: 6vh;
+		padding: 8vh;
+	}
 }
 
 .bg-space{
