@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Algoritma Nedir?"
-image: "/assets/images/posts/deneme.jpg"
+image: "/assets/images/posts/algnedır.png"
 comments: true
 categories: Algoritma
 tags: []
