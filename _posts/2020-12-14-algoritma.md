@@ -44,6 +44,6 @@ Algoritmadaki adımların şekilsel ya da grafiksel olarak ortaya konulmasına a
 		<img src="{{ site.baseurl }}{{ site.img }}simge.jpg" alt="" class="img-fluid"> 
 	</div>
 	<div class="col-6">
-		<img src="{{ site.baseurl }}{{ site.img }}akış.jpg" alt="" class="img-fluid"> 		
+		<img src="{{ site.baseurl }}{{ site.img }}akis.png" alt="" class="img-fluid"> 		
 	</div>
 </div>
