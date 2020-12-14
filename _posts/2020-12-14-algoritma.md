@@ -8,7 +8,7 @@ tags: []
 --- 
 **ALGORİTMA NEDİR?**
 
-Kelime, Abu Ja'far Mohammed ibn Musa alKhowarizmi(Harizmi)'nin soyadının fonetik telaffuzundan türetilmiştir.
+Kelime,Harizmi'nin soyadının fonetik telaffuzundan türetilmiştir.
 Algoritma, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanan yoldur.
 Algoritmalar, programlama veya matematikte bir işi yapmak için kullanılan sonlu işlemler kümesidir.
 Algoritma basamaklarının bir başlangıcı ve sonu bulunur. Her adımda yapılacak işlemler açıkça belirtilir.

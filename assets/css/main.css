@@ -244,3 +244,7 @@ a:hover, a:focus {
 .bg-space{
 	max-height: 10vh;
 }
+
+.row{
+	display: flex;
+}
