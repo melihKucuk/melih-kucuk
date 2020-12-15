@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Bilgisayar Ağları"
-image: "/assets/images/posts/vpsnedir.png"
+image: "/assets/images/posts/bilgisayarag.png"
 comments: true
 categories: server
 tags: []
