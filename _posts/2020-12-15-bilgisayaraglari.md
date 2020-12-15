@@ -14,23 +14,36 @@ tags: []
 Popüler iletişim protokolleri şunlardır:
 
 -ADSL, ISDN, Ethernet
+
 –802.11 WiFi, PPP
+
 –TCP/IP, IPX/SPX, UDP
+
 –DNS, SOCKS
+
 –HTTP, FTP, DHCP
 
 **Bilgisayar Ağlarının Sınıflandırılması**
 
 Bilgisayar ağları
+
 **1.**Kapsadıkları Alana Göre.
+
+
 1.Yerel Alan Ağı (Local Area Network: LAN)(1 1000m)
+
   -PAN (Personal Area Network)
+
 2.-Kentsel Alan Ağı (Metropolitan Area Network: MAN)(1 10km)
+
 3.-Geniş Alan Ağı (Wide Area Network: WAN)
+
    -Uzak Bağlantı (Remote Connection)
 
 **2.**İletişim teknolojilerine göre,
+
 1-Yayın ağları 
+
 2-Anahtarlamalı ağlar olarak iki grupta toplanmaktadır.
 
 **3.**Ağ yapılarına,Göre sınıflandırılmaktadır.
