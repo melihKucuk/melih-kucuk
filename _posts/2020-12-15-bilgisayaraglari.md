@@ -47,7 +47,7 @@ Bilgisayar ağları
 2-Anahtarlamalı ağlar olarak iki grupta toplanmaktadır.
 
 **3.**Ağ yapılarına,Göre sınıflandırılmaktadır.
-<div class="col-12">
+<div class="col-md-12">
 		<img src="{{ site.baseurl }}{{ site.img }}ag.jpg" alt="" class="img-fluid">	
 	</div>
 
