@@ -40,10 +40,10 @@ Algoritmadaki adımların şekilsel ya da grafiksel olarak ortaya konulmasına a
 
 
 <div class="row">
-	<div class="col-6">
+	<div class="col-md-6">
 		<img src="{{ site.baseurl }}{{ site.img }}simge.jpg" alt="" class="img-fluid"> 
 	</div>
-	<div class="col-6">
+	<div class="col-md-6">
 		<img src="{{ site.baseurl }}{{ site.img }}akis.png" alt="" class="img-fluid"> 		
 	</div>
 </div>
