@@ -23,6 +23,6 @@ Kripto paraların güvenliğinin temeli Blockchain teknolojisine dayanmaktadır.
 
 
 **Nasıl Kripto Para Alabilirim?**
-CoinMarketCap tarafından yapılan trafik, işlem hacimleri ve rapor edilen işlem hacimlerinin doğruluğuna duyulan güvene bağlı olarak sıralamada ilk sırada global bir borsa olan binance bulunmaktadır.Benimde kullandığım binance borsasına %10 komisyon indiriminden faydalanarak katılmak isterseniz https://www.binance.com/en/register?ref=X8B16OQO linki üzerinden kayıt olabilirsiniz.
+CoinMarketCap tarafından yapılan trafik, işlem hacimleri ve rapor edilen işlem hacimlerinin doğruluğuna duyulan güvene bağlı olarak sıralamada ilk sırada global bir borsa olan binance bulunmaktadır.Benimde kullandığım binance borsasına %10 komisyon indiriminden faydalanarak katılmak isterseniz <a href="https://www.binance.com/en/register?ref=X8B16OQO/"> BURAYA </a> tıklayarak kayıt olabilirsiniz.
 
 **YATIRIM TAVSİYESİ DEĞİLDİR**
