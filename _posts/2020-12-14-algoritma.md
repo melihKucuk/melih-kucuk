@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Algoritma Nedir?"
+title:  "Temel Algoritma Nedir?"
 image: "/assets/images/posts/algnedır.png"
 comments: true
 categories: Algoritma

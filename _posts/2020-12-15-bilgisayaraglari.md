@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Bilgisayar Ağları"
+title:  "Temel Bilgisayar Ağları"
 image: "/assets/images/posts/bilgisayarag.png"
 comments: true
 categories: server
